@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-ver=${VERSION:="0.8.1"}
+ver=${VERSION:="0.9.1"}
 exp_name=blackbox_exporter
 
 NAME=$(basename $(dirname $PWD/Dockerfile))
