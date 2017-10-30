@@ -1,4 +1,4 @@
-FROM armhf-prometheus-busybox:latest
+FROM arm32v7/busybox:1.27-uclibc
 MAINTAINER Mike Morris
 
 COPY blackbox_exporter  /bin/blackbox_exporter
