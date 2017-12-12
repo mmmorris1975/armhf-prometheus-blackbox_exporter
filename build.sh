@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-ver=${VERSION:="0.10.0"}
+ver=${VERSION:="0.11.0"}
 exp_name=blackbox_exporter
 
 declare -a TAGS
